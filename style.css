@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+header div {
+    padding: 20px;
+}
+
+h1 {
+    color: #8CBAFF;
+}
+
+.container__wrapper {
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.cat__name {
+    padding: 20px 0 10px;
+}
+
+.cat__text {
+    padding-right: 20px;
+}
+
+.cat__name {
+    padding-bottom: 20px;
+}
+
+.cat__age {
+    padding-bottom: 80px;
+}
+
+.strong {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.animals__wrapper {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.wrapper__button {
+    background-color: #8CBAFF;
+    border-radius: 10%;
+    margin-right: 20px;
+    padding: 10px 30px;
+
+}
+
+.animals {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 500;
+}
+
+.container__favorite {
+    padding: 20px;
+
+}
+
+.subtitle {
+    text-align: center;
+    color: #8CBAFF;
+    padding-bottom: 50px;
+}
+
+.fav__whrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fav__whrapper div {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    .container__wrapper {
+        display: inline-block;
+        width: 100%;
+
+    }
+
+    .cat__img {
+        width: 100%;
+    }
+
+    .cat__wrapper {
+        margin-left: 20px;
+    }
+
+    .cat__age {
+        padding-bottom: 30px;
+
+    }
+
+    .wrapper__button {
+        margin-bottom: 20px;
+    }
+
+    .fav__sub {
+        padding: 20px;
+    }
+
+    .fav__whrapper {
+        display: block;
+    }
+
+    .joy {
+        padding: 50px;
+    }
+
+
+}
